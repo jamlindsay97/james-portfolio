@@ -1,0 +1,77 @@
+body{
+    background-image:url('bg-pattern.png');
+    background-attachment:fixed;
+}
+
+h1, h2{
+    color:black;
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+    text-align:center;
+}
+
+p{
+    color:black;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    text-align:center;
+    font-size: 18px;
+}
+
+#menu{
+    display:flex;
+    justify-content:center;
+    justify-content: space-evenly;
+
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+
+    background-color:rgb(136, 214, 238);
+    border:3px ridge rgb(89, 190, 221);
+    margin-left:auto;
+    margin-right:auto;
+    width:65%;
+}
+/*this is the links menu at the top of the page*/
+
+.center-img{
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+/*this is to centre the photo of myself on the first page*/
+
+.contact{
+    background-color:rgb(136, 214, 238);
+    border:3px ridge rgb(89, 190, 221);
+    margin-left:auto;
+    margin-right:auto;
+    width:65%;
+}
+/*this is the contacts box at the bottom*/
+
+.icon{
+    height:76px;
+    width:76px;
+    display:inline-block;
+}
+
+.flex-center{
+    display:flex;
+    justify-content:center;
+}
+/*this is specifically so that the social media icons in the contacts box are centred*/
+
+.pic-size{
+    width:75%;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+
+.container {
+    position: center;
+    width:65%;
+    background-color:seashell;
+    margin-left:auto;
+    margin-right:auto;
+  }
